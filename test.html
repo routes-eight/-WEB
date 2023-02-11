@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="positionTest.css">
+</head>
+
+<script>
+    var arr = ['abc', 'def'];
+    document.write(arr[0]);
+    document.write("</br>");
+    document.write(arr[1]);
+    document.write("</br>");
+    arr.push('ghi');
+    document.write(arr);
+    document.write(arr.length);
+</script>
+
+<body>
+    <h1>LOOP & ARRAY</h1>
+    <h2>Coworkers</h2>
+    <script>
+        var workers = ["Andrew", "John", "Rachele"];
+        for (var i = 0; i < workers.length; i++) {
+            document.write('<li>' + workers[i] + '</li>');
+        }
+    </script>
+    <br>
+    <script>
+        function sum(left, right) {
+            return left + right;
+        }
+        document.write(sum(2, 3), '<br>');
+        document.write('<div style = "color:red">', sum(2, 4), '</div>');
+        document.write('<div style = "font-size:50px">', sum(2, 5), '</div>');
+    </script>
+
+
+    <div class="tomato">tomato</div>
+    <!-- <div class="grand-parent">
+        <div class="parent">
+            <div class="child">1</div>
+            <div class="child relative">2</div>
+            <div class="child">3</div>
+        </div> -->
+    </div>
+</body>
+
+</html>
